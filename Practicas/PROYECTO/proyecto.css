@@ -72,12 +72,12 @@ body{
     margin: 15px 0px;
     }
 
-    .def:hover{
+.def:hover{
         background-color: #170055;
         color: white;
     }
 
-    #def{
+#def{
     background-color: white;
     color:black;
     }
@@ -143,3 +143,10 @@ body{
     background-color: black;
     color: white;
 }
+.imagenes img{
+
+    width: 30%;
+    padding: 0px 15px;
+    vertical-align: top;
+    
+    }
