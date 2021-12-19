@@ -145,7 +145,21 @@ body{
 }
 .imagenes img{
 
-    width: 27%;
+    width: 25%;
     padding: 0px 15px;
     vertical-align: top; 
     }
+
+.upds{
+        width:150px;
+    }
+
+.galeria{
+    width:65%;
+}
+.galeriam{
+    width: 65%;
+}
+.galeriaf{
+    width: 65%;
+}
