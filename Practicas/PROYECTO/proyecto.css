@@ -145,8 +145,7 @@ body{
 }
 .imagenes img{
 
-    width: 30%;
+    width: 27%;
     padding: 0px 15px;
-    vertical-align: top;
-    
+    vertical-align: top; 
     }
