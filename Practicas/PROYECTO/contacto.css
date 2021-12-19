@@ -1,7 +1,7 @@
 body{
-    width: 1000px;
+    width: 600px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    margin: 100px 200px;
+    margin: 100px 100px;
     padding: 100px 50px;
     background-color: white;
 }
@@ -38,4 +38,3 @@ body{
 .enviar:hover{
     cursor:pointer;
 }
-        
