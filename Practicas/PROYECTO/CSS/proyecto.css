@@ -163,3 +163,11 @@ body{
 .galeriaf{
     width: 65%;
 }
+
+.fie{
+    width: 100%;
+    background: black;
+    color: white;
+    margin: 15px 0px;
+    padding: 15px 15px;
+}

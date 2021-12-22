@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        font-size: 25px;
+        color: tomato;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background: wheat;
+    }
+</style>
+<body>
+    <script>
+        /*document.writeln("hola");
+        document.write("Holo");
+        document.write(" Holo"); */
+       /* var nota=10; //var=leer variable
+        if(nota>51){  //condicion if
+            document.writeln("Aprobo");
+        }
+        else if(nota>21)
+        {
+            document.writeln("Reprobado");
+        }
+        else
+        {
+            document.writeln("Felicidades aprobó");
+        }*/
+
+      //  num=1;
+      /*  while(num<=10) while sirve solo si cumple desde el comienzo
+        {
+            document.writeln(num + '<br>');
+            num=num + 1;
+        }*/
+
+      /*  do{  //do while sirve para ejecutar aunque una vez
+            document.writeln(num + '<br>');
+            num=num + 1;
+
+        }while(num<=10)*/
+
+        //for(inicio;condicio; actualizacion){ mensaje}
+        
+     /*   for (var i = 1; i <= 10; i=i + 1 )
+        {
+            document.write(i);
+        }
+        */
+
+    /*    for(var i = 1; i <= 100; i = i + 1)
+        {
+            if(i%5 === 0  && i%3 === 0){
+                document.write(i + ' Fizz Buzz' + '<br>');
+            }
+            else if(i%3 === 0){
+                document.write(i +' Fizz' + '<br>')
+            }
+            else if(i%5 === 0){
+               document.write(i + ' Buzz' + '<br>')
+            }
+            else{
+            document.writeln(i + '<br>');}
+        }*/
+        var fecha=new Date();
+        document.writeln(fecha+'<br>');
+        var hora=fecha.getHours();
+        var min=fecha.getMinutes();
+        var seg=fecha.getSeconds();
+        var dia=fecha.getDay();
+        document.writeln('Hora: '+ hora+':'+min+':'+seg);
+        document.writeln(dia);
+    </script>
+</body>
+</html>
